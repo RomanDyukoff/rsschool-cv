@@ -4,14 +4,14 @@
 }
 @font-face {
   font-family: San-Francisco;
-  src: url(/rsschool-cv-html/font/SF-Pro-Display-Regular.woff);
+  src: url(/rsschool-cv/font/SF-Pro-Display-Regular.woff);
   font-style: normal; 
   font-weight: normal;
 }
 
 @font-face {
   font-family: San-Francisco-light;
-  src: url(/rsschool-cv-html/font/SF-Pro-Display-Light.woff);
+  src: url(/rsschool-cv/font/SF-Pro-Display-Light.woff);
   font-style: normal; 
   font-weight: 400;
 }
