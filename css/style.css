@@ -190,5 +190,17 @@ p::after {
   margin: 0px 0 0 107px;
 }
 
+.code {
+  margin: 18px 0;
+}
+
+.code__sample::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color:silver;
+  margin-top: 10px;
+}
+
 
 
