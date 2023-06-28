@@ -1,7 +1,7 @@
 ### CV#1. Markdown & Git  
   
 1. Roman Dyukov  
-2. [Email]: (roma.dyukoff@gamil.com).  
+2. [Email](roma.dyukoff.com).  
 3. My name is Roman I am 29 years old.  
  At the moment I am actively looking for a job as a Frontend developer.  
  I came to the course to refresh my knowledge and get something new,  
