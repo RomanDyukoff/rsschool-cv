@@ -1,6 +1,7 @@
 @import url("./normalize.css");
 @import url("./var.css");
 @import url("./header.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
 
 html {
     scroll-behavior: smooth; 
@@ -10,17 +11,54 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    color: var(--text-color);
 }
 
 .container {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    width: 50%;
+    padding: 2rem 1rem;
+}
+
+.section__title {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--bg-color);
+}
+
+.section__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section__list_item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section__list_item > img {
+    width: 20px;
+    height: 20px;
 }
 
 h1 {
@@ -43,6 +81,7 @@ a {
 ul {
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 img {
@@ -50,19 +89,11 @@ img {
     object-fit: cover;
 }
 
-.section {
-    position: relative;
-    padding: 2rem 0;
-}
 
-.profile::after {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    contain: " ";
+.profile {
     width: 100%;
-    height: 5px;
-    background-color: red;
+    padding: 2rem 0;
+    border-bottom: 3px solid var(--bg-color);
 }
 
 .profile__wrapper {
@@ -94,3 +125,15 @@ img {
     letter-spacing: 5px;
     color: #829985;
 }
+
+.contacts__item > img {
+    filter: invert(59%) sepia(14%) saturate(390%) hue-rotate(77deg) brightness(97%) contrast(89%);
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+
