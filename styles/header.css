@@ -1,0 +1,30 @@
+.header {
+    padding: 0.5rem 2rem;
+    background-color: var(--bg-color);
+}
+
+.header__title {
+    font-size: 1.5rem;
+    /* color: var(--text-color); */
+    letter-spacing: 0.3px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    /* color: var(--text-color); */
+}
+
+.header__item > a {
+    padding: 0 20px;
+    line-height: 2rem;
+}
